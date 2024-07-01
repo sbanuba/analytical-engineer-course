@@ -140,14 +140,23 @@ Tools: Airflow, Fivetran
    - This is why ER mnodels are a set of normalised tables and are used for transactional databases(OLTP)
    - Different levels of normal form and normalization rules
    - Minimises data redundancy and improvees data integrity
-         - Data redundacy is where we have repeated number of rows at multiple places
+      - Data redundacy is where we have repeated number of rows at multiple places
    - Non normalised table takes more space and also creates data anomalies
-          - 3 types of anomalies:
-               - Insertion Anomaly
-               - Deletion Anomaly
-               - Modification (Update) Anomaly 
-
+      - 3 types of anomalies:
+        - Insertion Anomaly
+        - Deletion Anomaly
+        - Modification (Update) Anomaly 
    - It is a way of orginise data in our database and part of the modelling process
+
+ * Levels of Normalisation
+    - First normal form (1NF)
+    - Second normal form (2NF)
+    - Third normal form (3NF) = ER Model
+    - Fourth normal form (4NF) or Boyce Codd Normal Form(BCNF)
+    - Fifth normal form(5NF)
+
+
+   * 3 Steps to Normalise an Entity
      
   
 
