@@ -157,6 +157,12 @@ Tools: Airflow, Fivetran
 
 
    * 3 Steps to Normalise an Entity
+   --------------
+
+
+   # 6: Data Warehouse Design Methodologies
+
+   
      
   
 
