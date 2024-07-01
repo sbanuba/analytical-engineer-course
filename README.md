@@ -63,10 +63,37 @@ Tools: Airflow, Fivetran
  
   - Attributes are properties that describe an entity(for customer it'll be name, email, address etc
         - IE Notation: Attributes listed within the rectangle box
-        - Chen Style: Represented by an oval shape, Specific type of attributes also exists: multivalue derived, unique(key), partila etc
+        - Chen Style: Represented by an oval shape, Specific type of attributes also exists: multivalue derived, unique(key), partial etc
         - Relationship Cardinality: Cardinality defines possible number of attributes occurance in one entity with another entity
 
     
     * Steps to Create an ERD:
-   Identify Entity ---> Identify Relationship ---> I dentify Cardinality ---> Identify Attributes --->
+   Identify Entity ---> Identify Relationship ---> I dentify Cardinality ---> Identify Attributes ---> ERD
+
+* Types of Data Model: 3 types
+  - Conceptual Data Modle -> Business
+      - Identify what the system contains but not the details
+      - focus is to identify what data is used in business
+      - This is the first version of the data model and can't be used to build a database
+      - Goal of a conceptual data model is to act as a business requirement reference
+      - Gives us understanding of high level and how each entity relates to each other
+      - Doesn't describe the process flow itself
+        
+      - Features of Conceptual Data Model:
+          - Doesn't show primary key or attributes
+          - Shows entities and relationship
+          - It's a high-level view for the business and shows a structure of data for business
+          - It's independent of a database and not implementable ready
+          - Very early stage of the modelling process where most of the concepts or objects might never made to the final pyhsical model
+          - Identify and help with scoping requirements
+          - Useful for PM as communication tool
+          - It is part of what builds the final Entity Relationship Model
+            
+  - Logical Data Model -> Architect & BA
+  - Physical Data Model -> DBA & Developer
+ 
+
+    
+    All start with Gathering Business requirements
+
 
