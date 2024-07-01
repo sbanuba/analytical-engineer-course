@@ -27,3 +27,7 @@ Tools: Airflow, Fivetran
 - Low compliance due to everything stored
 - Security risk if not handled PII data correctly
 - Fairly new technology due to popularity in cloud solutions
+
+---
+# DATA MODELLING & ERD NOTATION
+
