@@ -102,7 +102,7 @@ Tools: Airflow, Fivetran
          - Relationships are specified using primary and foreign keys
          - Independent from DBMS
          - Normalization happens usually to 3NF
---
+
    - Physical Data Model
      - Identify how the system will be implemented for specific DBMS system
      - It is the blueprint for the developer
@@ -115,21 +115,43 @@ Tools: Airflow, Fivetran
          - Each column datatype, length, nullable is specified
          - Relationshíp cardinality is defined
 
-
-   --
-  - Different Types of Keys
+   - Different Types of Keys
      - Primary
      - Foreign key
      - Surrogate Key
      - Composite key
      - Natural key
 
---
-  - Recommended Tools for ERD
+   - Recommended Tools for ERD
       - Lucidchart
       - Draw.io
       - erwin Data Modeller
       - ER/Studio
       - MySQL Workbench
+
+        ---
+
+# NORMALISATION & DE-NORMALISATION
+
+* Normalisation:
+   - Normalisation splits large tables into small ones and joins them together using relationships
+   - It is a way of organising data in our database and part of the modelling process
+   - This enhances the distribution of data hence reducing data anomalies
+   - This is why ER mnodels are a set of normalised tables and are used for transactional databases(OLTP)
+   - Different levels of normal form and normalization rules
+   - Minimises data redundancy and improvees data integrity
+         - Data redundacy is where we have repeated number of rows at multiple places
+   - Non normalised table takes more space and also creates data anomalies
+          - 3 types of anomalies:
+               - Insertion Anomaly
+               - Deletion Anomaly
+               - Modification (Update) Anomaly 
+
+   - It is a way of orginise data in our database and part of the modelling process
+     
+  
+
+
+
 
 
