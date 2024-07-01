@@ -58,3 +58,15 @@ Tools: Airflow, Fivetran
    - Puts forth the conceptual ideas in a readable format
    - ER diagrams used as  a blueprint for implementation
 
+* Entity, Attributes Relationship
+  - Entity: is a class of objects represented by a rectangle. This can be something that exists in the real world logically, physically or conceptually. Such as person, customer, employee, product, transaction, account.
+ 
+  - Attributes are properties that describe an entity(for customer it'll be name, email, address etc
+        - IE Notation: Attributes listed within the rectangle box
+        - Chen Style: Represented by an oval shape, Specific type of attributes also exists: multivalue derived, unique(key), partila etc
+        - Relationship Cardinality: Cardinality defines possible number of attributes occurance in one entity with another entity
+
+    
+    * Steps to Create an ERD:
+   Identify Entity ---> Identify Relationship ---> I dentify Cardinality ---> Identify Attributes --->
+
