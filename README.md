@@ -161,6 +161,29 @@ Tools: Airflow, Fivetran
 
 
    # 6: Data Warehouse Design Methodologies
+   - Inmon:
+       - Corporate Information Factory(CIF) created by Bill Inmon aka father of data warehouse
+       - DWH is subject-oriented, integrated, time-variant and non-volatile
+       - Starts with understanding and identifying the main subject used by the business
+       - Enterprise Data Warehouse(EDW) is core of this architecture
+       - All the enterprise data in a single data warehouse, centrally repository for all business data
+       - Work with normalized data model
+       - Data marts are created separately for each business function
+       - Referred as a top-down or data-driven approach
+    
+       - Inmon CIF Architecture Components
+          - External World  and Applications
+          - Integration & Transformation
+          - Operational Data Store (ODS)
+          - Enterprise Data Warehouse (EDW)
+          - Data Mart
+          - Decision Support System(DSS)
+
+   
+   - Kimbal
+   - Data Vault
+   - OBT: One Big Table
+   - Data Modelling 
 
    
      
