@@ -39,3 +39,17 @@ Tools: Airflow, Fivetran
 - Provides visual way to communicate with business at various level
 - Data Model is important part of the developement process(main communication methid between team)
 
+# Data Modelling
+- Data modeling is the process itself
+- identifying and anylyse business requiremennts
+- Work with business on defining the dta model
+   - Interview, meetings, reviewing existing process
+- Define ERD notation style
+   - Information Engineering(IE), Chen's Style, Barker UML
+- Define the model type
+  - Conceptual, Logic, Physical
+- Define Data Modelling Methodology
+  - Relational data Models (ER data model)
+  - Dimension Model
+  
+
