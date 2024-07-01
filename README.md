@@ -90,6 +90,60 @@ Tools: Airflow, Fivetran
           - It is part of what builds the final Entity Relationship Model
             
   - Logical Data Model -> Architect & BA
+     - Identify how the system should be implemented
+     - Focus on business requirements
+     - Focus on the design of the data not physical implementation
+     - Add additional information to the conceptual # Advantages of ELT
+       
+     - Features of Logical Data  Model
+         - Primary key & foreign keys are present
+         - All attributes are specified within an entity, will have data types
+         - Relationships are specified using primary and foreign keys
+         - Independent from DBMS
+         - Normalization happens usually to 3NF
+      
+
+- More data storage space required
+- Could be slow due to muilti persistent of data
+- Low compliance due to everything stored
+- Security risk if not handled PII data correctly
+- Fairly new technology due to popularity in cloud solutions
+
+
+
+
+
+
+
+
+---
+# DATA MODELLING & ERD NOTATION
+#### Data Model:
+- Foundation to building DWH & BI solutions
+- Primary goal of the data model is to act as a blueprint
+- Helps buidling conceptual, logic, physical and models and define relatiosnhips
+- Defines how the logical structure of database is modeled
+- Specifies business requirements and data structure
+- Provides visual way to communicate with business at various level
+- Data Model is important part of the developement process(main communication methid between team)
+
+# Data Modelling
+- Data modeling is the process itself
+- identifying and anylyse business requiremennts
+- Work with business on defining the dta model
+   - Interview, meetings, reviewing existing process
+- Define ERD notation style
+   - Information Engineering(IE), Chen's Style, Barker UML
+- Define the model type
+  - Conceptual, Logic, Physical
+- Define Data Modelling Methodology
+  - Relational data Models (ER data model)
+  - Dimension Model
+   to give further level of datails
+     - It is independent of specific database design
+     - It is a foundational layer for Physical model
+     - Creates common understanding of business data
+     - Sometimes called Business Model
   - Physical Data Model -> DBA & Developer
  
 
