@@ -20,3 +20,10 @@ Tools: Airflow, Fivetran
 - Ensures architecture future proof due to the data lake habdling data growth
 - No longer requires DE to setup complicated pipelines
 - Data access security happens within data warehouse
+
+# Advantages of ELT
+- More data storage space required
+- Could be slow due to muilti persistent of data
+- Low compliance due to everything stored
+- Security risk if not handled PII data correctly
+- Fairly new technology due to popularity in cloud solutions
