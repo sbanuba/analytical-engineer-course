@@ -71,6 +71,7 @@ Tools: Airflow, Fivetran
    Identify Entity ---> Identify Relationship ---> I dentify Cardinality ---> Identify Attributes ---> ERD
 
 * Types of Data Model: 3 types
+  --
   - Conceptual Data Modle -> Business
       - Identify what the system contains but not the details
       - focus is to identify what data is used in business
@@ -88,7 +89,7 @@ Tools: Airflow, Fivetran
           - Identify and help with scoping requirements
           - Useful for PM as communication tool
           - It is part of what builds the final Entity Relationship Model
-            
+  --          
   - Logical Data Model -> Architect & BA
      - Identify how the system should be implemented
      - Focus on business requirements
@@ -101,12 +102,19 @@ Tools: Airflow, Fivetran
          - Relationships are specified using primary and foreign keys
          - Independent from DBMS
          - Normalization happens usually to 3NF
-
+--
    - Physical Data Model
      - Identify how the system will be implemented for specific DBMS system
      - It is the blueprint for the developer
      - Depending on data modelling choice denormalisation can occur
      - Final result of Physical design can be different from Logical design
+    
+     - Features of Physical Data Model
+         - Entities are now tables names
+         - Attributes become columns names
+         - Each column datatype, length, nullable is specified
+         - Relationshíp cardinality is defined
+     
 
 
 
