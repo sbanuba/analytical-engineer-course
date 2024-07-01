@@ -101,6 +101,21 @@ Tools: Airflow, Fivetran
          - Relationships are specified using primary and foreign keys
          - Independent from DBMS
          - Normalization happens usually to 3NF
+
+   - Physical Data Model
+     - Identify how the system will be implemented for specific DBMS system
+     - It is the blueprint for the developer
+     - Depending on data modelling choice denormalisation can occur
+     - Final result of Physical design can be different from Logical design
+
+
+
+
+
+
+
+
+
       
 
 - More data storage space required
