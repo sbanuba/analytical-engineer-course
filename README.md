@@ -114,7 +114,23 @@ Tools: Airflow, Fivetran
          - Attributes become columns names
          - Each column datatype, length, nullable is specified
          - Relationshíp cardinality is defined
-     
+
+
+   --
+  - Different Types of Keys
+     - Primary
+     - Foreign key
+     - Surrogate Key
+     - Composite key
+     - Natural key
+
+--
+  - Recommended Tools for ERD
+      - Lucidchart
+      - Draw.io
+      - erwin Data Modeller
+      - ER/Studio
+      - MySQL Workbench
 
 
 
