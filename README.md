@@ -30,4 +30,12 @@ Tools: Airflow, Fivetran
 
 ---
 # DATA MODELLING & ERD NOTATION
+#### Data Model:
+- Foundation to building DWH & BI solutions
+- Primary goal of the data model is to act as a blueprint
+- Helps buidling conceptual, logic, physical and models and define relatiosnhips
+- Defines how the logical structure of database is modeled
+- Specifies business requirements and data structure
+- Provides visual way to communicate with business at various level
+- Data Model is important part of the developement process(main communication methid between team)
 
