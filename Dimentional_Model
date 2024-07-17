@@ -1,0 +1,27 @@
+# Building Dimensional Model in BigQuery
+- Define Use-Case
+- Requirement Gathering
+- Architecture Design
+- Dimensional Modelling
+- Physical Design & Development
+
+
+- Use-Case (Northwind Traders)
+The Northwind database is a sample database created by Microsoft to demonstrate the features of some of its products and for training and tutorial purposes.
+The database contains all the sale data for North Traders, a fictitious speciality foods export-import company.
+   Sales transactions between the company(Northwind traders) and its customers
+   The purchase transactions between Northwind and its suppliers.
+We will be using MySQL version of the Northwind sample database
+
+Important to understand
+- What
+- Why 
+- How
+
+    - The WHAT?
+- Northwind Traders are export-import company who trades around the world for speciality foods
+- Their existing architecture is mostly a mix of on-premise & legacy systems, including their MySQL database which is primary operational database.
+- This is where all the sales transactions are recorded between company and its customers
+- Same MySQL database is also being used to generate reports & build analytical solutions
+- They are struggling to keep up with reporting requirements and causing database to slow down impacting their day to day business
+- Northwind traders want to modernise their data & reporting solutions and move away from on-prem
