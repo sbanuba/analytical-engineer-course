@@ -24,4 +24,19 @@ Important to understand
 - This is where all the sales transactions are recorded between company and its customers
 - Same MySQL database is also being used to generate reports & build analytical solutions
 - They are struggling to keep up with reporting requirements and causing database to slow down impacting their day to day business
-- Northwind traders want to modernise their data & reporting solutions and move away from on-prem
+- Northwind traders want to modernise their data & reporting solutions and move away from on-premise
+
+   - The WHY?
+- They want to modernizse their existing infrastruture for 
+  - Better scalability
+  - Reduce load on operational systems 
+  - Improve reporting speed
+  - Improve data security
+
+      - The HOW
+- Northwind Traders will migrate their existing database system to Google Cloud Platform(GCP)
+- MySQL on-premise will be replaced with a fully managed Cloud SQL for MySQL
+- During this migration, they need help with setting up  OLAP system for reports
+- BigQuery was selected to run OLAP
+- Need to build high-priority  reports first to access new system and drive adoption
+- Dimensional Data Warehouse will be build on BigQuery to support with reporting requirements
