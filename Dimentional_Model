@@ -5,8 +5,8 @@
 - Dimensional Modelling
 - Physical Design & Development
 
+1.  Use-Case (Northwind Traders)
 
-- Use-Case (Northwind Traders)
 The Northwind database is a sample database created by Microsoft to demonstrate the features of some of its products and for training and tutorial purposes.
 The database contains all the sale data for North Traders, a fictitious speciality foods export-import company.
    Sales transactions between the company(Northwind traders) and its customers
@@ -40,3 +40,10 @@ Important to understand
 - BigQuery was selected to run OLAP
 - Need to build high-priority  reports first to access new system and drive adoption
 - Dimensional Data Warehouse will be build on BigQuery to support with reporting requirements
+
+2. Requirements Gathering: 
+- Define Business Processes
+- Conduct Data Profiling (Data Exploration)
+- Create Bus Matrix High level entities
+- Create Naming Convention Document
+- Create Conceptual Model
