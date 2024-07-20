@@ -41,9 +41,28 @@ Important to understand
 - Need to build high-priority  reports first to access new system and drive adoption
 - Dimensional Data Warehouse will be build on BigQuery to support with reporting requirements
 
+
+
 2. Requirements Gathering: 
-- Define Business Processes
+- Define Business Processes( following Kimball Dimensionl )
 - Conduct Data Profiling (Data Exploration)
 - Create Bus Matrix High level entities
 - Create Naming Convention Document
 - Create Conceptual Model
+
+
+2.1 Define Business Process
+Requirements:
+- Sales Overview:
+    - Overall sales reports to understand better our customers what is being sold, what sells the most where and what sales the least, the goal is to have a general overview of how the business is going
+
+- Sales Agent Tracking:
+    - Tracking sales and performance of each sales agent to adjust commissions, reward high achievers and empower low achievers
+
+- Product Inventory:
+   - Understand the current inventory levels how to improve stock management, what suppliers do we have, and how much is being purchased. This will allow us to understand stock management and potentially broker better deals with supplier
+
+- Customer Reporting:
+   - Allow customers to understand their purchase orders, how much and when are they buying, empowering them to make data decisions and utilize the data to join their sales data
+
+2.2 Data Profiling:
